@@ -55,7 +55,7 @@ console.log(email)
 // null
 // NaN
 
-// OPERADORES
+// OPERADORES Matematicos
 
 let nombre = "juancito"
 let apellido = "lopez"
@@ -81,9 +81,58 @@ console.log(multi)
 console.log(division)
 console.log(resta)
 console.log(modulo)
+console.log("-------------------")
+console.log("-------------------")
+console.log("-------------------")
+// OPERADORES DE COMPARACION ---> devuelven es un booleano
 
-// OPERADORES DE COMPARACION
+let n1 = 15
+let n2 = 125
 
-// OPERADORES LOGICOS 
+let nombre1 = "pepito"
+let nombre2 = "juancito"
 
+ console.log( n1 < n2 ) // Menor que
+ console.log( n1 > n2 ) // Mayor que
+ console.log( n1 <= n2 ) // Menor o igual que
+ console.log( n1 >= n2 ) // Mayor o igual que
+ console.log( n1 == n2 ) // Igual que
+ console.log( n1 != n2 ) // Distinto que
+
+// COMPARACION SIMPLE ---> solo evalua el valor, Y NO EL TIPO DE DATO
+ console.log(nombre1 == nombre2) 
+ console.log(nombre1 != nombre2)
+
+ let a = "12"
+ let b = 12
+ console.log( a != b )
+
+ // COMPARACION ESTRICTA ---> evalua el valor pero TAMBIEN EL TIPO DE DATO
+
+ console.log( a === b )
+ console.log( a !== b )
+
+ console.log("--------------")
+ let esMayor = false
+ console.log( !esMayor )
+
+
+ let j = 1
+ let m = 2
+ console.log("--------------")
+
+ console.log( !(1 > 2) )
+
+// OPERADORES LOGICOS
+
+// AND ---> &&
+// OR  ---> ||
+
+// QUIERO QUE ME DEVUELVA TRUE, SI SE CUMPLEN LAS 2
+console.log("--------------")
+
+console.log(  1 < 5 && 10 < 21  && 1 < 2  ) // DEVUELVE TRUE SI TODOS CUMPLEN
+
+
+console.log( 1 > 2 || 1 < 2 || 10 == 21 ) // DEVUELVE TRUE SI POR LO MENOS UNO ES TRUE
 
