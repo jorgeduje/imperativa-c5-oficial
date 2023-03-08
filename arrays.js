@@ -114,4 +114,3 @@ const calcularTotal = (arr)=>{
 
 let total = calcularTotal(numeritos)
 console.log( total )
-
