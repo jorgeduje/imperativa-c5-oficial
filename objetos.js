@@ -107,3 +107,5 @@ const determinarPromedios = (arr) => {
 };
 
 determinarPromedios(alumnos);
+
+
