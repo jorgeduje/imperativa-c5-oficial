@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "nombre": "motorola",
+      "precio": 40,
+      "cantidad": 5,
+      "categoria": "telefonia"
+    },
+    {
+      "nombre": "notebook",
+      "precio": 80,
+      "cantidad": 10,
+      "categoria": "computacion"
+    },
+    {
+      "nombre": "zapatilla",
+      "precio": 20,
+      "cantidad": 2,
+      "categoria": "indumentaria"
+    },
+    {
+      "nombre": "Macbook",
+      "precio": 100,
+      "cantidad": 7,
+      "categoria": "computacion"
+    },
+    {
+      "nombre": "samsung",
+      "precio": 60,
+      "cantidad": 15,
+      "categoria": "telefonia"
+    },
+    {
+      "nombre": "monitor",
+      "precio": 30,
+      "cantidad": 5,
+      "categoria": "computacion"
+    }
+  ]
+}
